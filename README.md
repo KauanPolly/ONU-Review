@@ -1,5 +1,7 @@
 # 🚀 ONU Review Pro
 
+![Dashboard ONU Review Pro](https://github.com/KauanPolly/ONU-Review/issues/1#issue-3978054778)
+
 O **ONU Review Pro** é uma ferramenta de diagnóstico de rede de alta performance desenvolvida para técnicos e reviewers de hardware. O foco é extrair o máximo de detalhes sobre a estabilidade da conexão, latência em tempo real e performance Gigabit.
 
 ## 🛠️ Tecnologias Utilizadas
