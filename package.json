@@ -1,0 +1,37 @@
+{
+  "name": "onu-review-pro",
+  "version": "1.0.0",
+  "description": "Diagnostico de rede de alta performance",
+  "author": "Suporte Tecnico",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.onureview.pro",
+    "productName": "ONU Review Pro",
+    "asar": true,
+    "directories": {
+      "output": "Build_Final"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "script.js",
+      "icon.ico"
+    ],
+    "extraResources": [
+      "main.exe",
+      "speedtest.exe"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^40.6.0",
+    "electron-builder": "^26.8.1"
+  }
+}

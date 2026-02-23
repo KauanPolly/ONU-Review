@@ -1,0 +1,28 @@
+# --- Ambientes Virtuais e Dependências ---
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# --- Pastas de Build e Distribuição ---
+# Estas pastas contêm os executáveis gerados e arquivos temporários do PyInstaller/Electron
+build/
+dist/
+Build_Final/
+
+# --- Binários e Executáveis ---
+# Evita enviar o motor do speedtest e executáveis de teste para o repositório
+*.exe
+*.zip
+*.msi
+
+# --- Arquivos de Backup e Temporários ---
+# Ignora arquivos que parecem ser rascunhos ou backups manuais
+backup.py
+bk.html
+*.log
+*.spec
+
+# --- Configurações de IDE ---
+.vscode/
+.idea/
